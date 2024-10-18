@@ -57,7 +57,7 @@ const Projects = () => {
         <ProjectsCart
           title="Upland project"
           desc="I'm used this projects HTML, css, bootstrap, javaScript"
-          src={"/public/projects/upland.png"}
+          src={"/projects/upland.png"}
           gitHubLink={
             "https://github.com/mamunurroshid90/upland-responsive-project"
           }
