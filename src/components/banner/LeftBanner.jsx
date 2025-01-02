@@ -5,6 +5,7 @@ import { FaFacebookF, FaFigma, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
+import Resume from "../../assets/images/Mamunur-frontend-developer.pdf";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -91,6 +92,23 @@ const LeftBanner = () => {
             </span>
           </div>
         </div>
+      </div>
+      <div className=" flex justify-center mt-28">
+        <button
+          className="px-6 py-3 bg-designColor text-white font-semibold rounded-lg shadow-md 
+                 hover:bg-red-900 hover:scale-105 transform transition-transform 
+                 duration-300 ease-in-out focus:outline-none focus:ring-2 
+                 focus:ring-blue-400 focus:ring-offset-2"
+        >
+          <a
+            href={Resume}
+            // download="Resume"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download CV
+          </a>
+        </button>
       </div>
     </div>
   );
