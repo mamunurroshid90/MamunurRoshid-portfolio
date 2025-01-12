@@ -39,11 +39,11 @@ const Projects = () => {
           liveLink={"https://nexcent-react-project.vercel.app/"}
         />
         <ProjectsCart
-          title="Quiz app"
-          desc=" I'm used this projects HTML, css, javaScript"
-          src={"/projects/quiz app.png"}
-          gitHubLink={"https://github.com/mamunurroshid90/Quiz-app-js"}
-          liveLink={"https://mamunurroshid90.github.io/Quiz-app-js/"}
+          title="E-commerce Project ( Running... )"
+          desc=" I'm used this projects react, router-dom, redux"
+          src={"/projects/e-commerce-projects.png"}
+          gitHubLink={"https://github.com/mamunurroshid90/eCommerce-project"}
+          liveLink={"https://e-commerce-project-vert-ten.vercel.app/"}
         />
         <ProjectsCart
           title=" Search image engine"
